@@ -1,7 +1,7 @@
-diff --git a/src/gui/opengl/qopenglframebufferobject.cpp b/src/gui/opengl/qopenglframebufferobject.cpp
+diff --git a/qtbase/src/gui/opengl/qopenglframebufferobject.cpp b/qtbase/src/gui/opengl/qopenglframebufferobject.cpp
 index 56e04c0..b1b580f 100644 (file)
---- a/src/gui/opengl/qopenglframebufferobject.cpp
-+++ b/src/gui/opengl/qopenglframebufferobject.cpp
+--- a/qtbase/src/gui/opengl/qopenglframebufferobject.cpp
++++ b/qtbase/src/gui/opengl/qopenglframebufferobject.cpp
 @@ -1490,6 +1490,7 @@ bool QOpenGLFramebufferObject::bindDefault()
      if (ctx) {
          ctx->functions()->glBindFramebuffer(GL_FRAMEBUFFER, ctx->defaultFramebufferObject());
